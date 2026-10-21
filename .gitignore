@@ -1,0 +1,13 @@
+# Игнорируем скрытые папки сборки PlatformIO в каждом проекте
+**/.pio/
+**/.pioenvs/
+**/.piolibdeps/
+
+# Игнорируем локальные настройки VS Code внутри папок проектов
+**/.vscode/.provider*
+**/.vscode/targets.json
+
+# Системные файлы
+*.log
+.DS_Store
+Thumbs.db
